@@ -1,5 +1,11 @@
 # @ai-sdk/react
 
+## 2.0.0-alpha.9
+
+### Patch Changes
+
+- ai@5.0.0-alpha.9
+
 ## 2.0.0-alpha.8
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @ai-sdk/gateway
 
+## 1.0.0-alpha.9
+
+### Patch Changes
+
+- 26b6dd0: feat (providers/gateway): include deployment and request id
+
 ## 1.0.0-alpha.8
 
 ### Patch Changes

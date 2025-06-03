@@ -1,5 +1,12 @@
 # ai
 
+## 5.0.0-alpha.9
+
+### Patch Changes
+
+- Updated dependencies [26b6dd0]
+  - @ai-sdk/gateway@1.0.0-alpha.9
+
 ## 5.0.0-alpha.8
 
 ### Major Changes

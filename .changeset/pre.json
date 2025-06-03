@@ -64,7 +64,8 @@
     "analyze-downloads": "0.0.0",
     "eslint-config-vercel-ai": "0.0.0",
     "generate-llms-txt": "0.0.0",
-    "@vercel/ai-tsconfig": "0.0.0"
+    "@vercel/ai-tsconfig": "0.0.0",
+    "@example/next": "0.0.0"
   },
   "changesets": [
     "afraid-moles-cross",
@@ -86,6 +87,7 @@
     "chatty-steaks-search",
     "chilled-clocks-brush",
     "chilled-queens-remember",
+    "chilly-chairs-press",
     "chilly-teachers-brush",
     "chilly-tips-know",
     "clean-numbers-cover",
@@ -272,6 +274,7 @@
     "stale-tools-exercise",
     "strange-apricots-enjoy",
     "strange-camels-decide",
+    "stupid-pots-laugh",
     "sweet-lobsters-type",
     "sweet-turtles-kiss",
     "swift-countries-applaud",

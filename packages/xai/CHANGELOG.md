@@ -1,5 +1,11 @@
 # @ai-sdk/xai
 
+## 2.0.0-alpha.9
+
+### Patch Changes
+
+- 107cd62: Add native XAI chat language model implementation
+
 ## 2.0.0-alpha.8
 
 ### Patch Changes
