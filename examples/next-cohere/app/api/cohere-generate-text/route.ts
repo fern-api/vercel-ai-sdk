@@ -10,14 +10,17 @@ export const maxDuration = 30;
 export async function GET(req: Request) {
   // Extract the `prompt` from the body of the request
 //   const { prompt } = await req.json();
-console.log(process.env.COHERE_API_KEY);
+
     const cohereProvider = createCohere({
         apiKey: process.env.COHERE_API_KEY
     })
 
   // Ask OpenAI for a streaming chat completion given the prompt
-  const result = await generateText({
+  const result = await streamText({
     model: cohereProvider.languageModel('command-a-03-2025'),
+    onError: (error) => {
+        console.error(error);
+    },
     messages: [
       {
         role: 'user',
@@ -59,8 +62,10 @@ console.log(process.env.COHERE_API_KEY);
   console.log('\nFull result object:');
   console.log(JSON.stringify(result, null, 2));
 
-  // Respond with the stream
-  return new Response(JSON.stringify({ text: result.text }), {
-    headers: { 'Content-Type': 'application/json' },
-  });
+  return result.toUIMessageStreamResponse();
+
+//   // Respond with the stream
+//   return new Response(JSON.stringify({ text: result.text }), {
+//     headers: { 'Content-Type': 'application/json' },
+//   });
 }
