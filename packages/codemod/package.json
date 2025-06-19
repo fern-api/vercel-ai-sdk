@@ -1,5 +1,5 @@
 {
-  "name": "@ai-sdk/codemod",
+  "name": "@fern-api/codemod",
   "version": "2.0.0-alpha.0",
   "license": "Apache-2.0",
   "sideEffects": false,
