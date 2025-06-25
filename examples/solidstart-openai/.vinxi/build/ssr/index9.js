@@ -1,0 +1,1 @@
+import{o}from"./assets/index-DxbKn28b.js";import{s as e}from"./assets/index-njiR_SmV.js";import"./assets/index-Bf1kAoXe.js";import"zod";const g=async s=>{const{messages:t}=await s.request.json();return e({model:o("gpt-4-turbo"),messages:t,async onFinish({text:r,toolCalls:n,toolResults:i,usage:m,finishReason:l}){}}).toDataStreamResponse()};export{g as POST};

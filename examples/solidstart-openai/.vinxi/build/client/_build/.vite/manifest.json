@@ -1,0 +1,120 @@
+{
+  "_index-tUPll72k.js": {
+    "file": "assets/index-tUPll72k.js",
+    "name": "index"
+  },
+  "_web-BFUmgCsR.js": {
+    "file": "assets/web-BFUmgCsR.js",
+    "name": "web"
+  },
+  "src/routes/completion/index.tsx?pick=default&pick=$css": {
+    "file": "assets/index-g1KIZfYB.js",
+    "name": "index",
+    "src": "src/routes/completion/index.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-BFUmgCsR.js",
+      "_index-tUPll72k.js"
+    ]
+  },
+  "src/routes/index.tsx?pick=default&pick=$css": {
+    "file": "assets/index-Ca65DbUB.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-BFUmgCsR.js",
+      "_index-tUPll72k.js"
+    ]
+  },
+  "src/routes/use-chat-attachments/index.tsx?pick=default&pick=$css": {
+    "file": "assets/index-Byyzs0ED.js",
+    "name": "index",
+    "src": "src/routes/use-chat-attachments/index.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-BFUmgCsR.js",
+      "_index-tUPll72k.js"
+    ]
+  },
+  "src/routes/use-chat-request/index.tsx?pick=default&pick=$css": {
+    "file": "assets/index-CC_I3Z3a.js",
+    "name": "index",
+    "src": "src/routes/use-chat-request/index.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-BFUmgCsR.js",
+      "_index-tUPll72k.js"
+    ]
+  },
+  "src/routes/use-chat-streamdata/index.tsx?pick=default&pick=$css": {
+    "file": "assets/index-C5n2XuuX.js",
+    "name": "index",
+    "src": "src/routes/use-chat-streamdata/index.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-BFUmgCsR.js",
+      "_index-tUPll72k.js"
+    ]
+  },
+  "src/routes/use-chat-tools/index.tsx?pick=default&pick=$css": {
+    "file": "assets/index-CssdHt-T.js",
+    "name": "index",
+    "src": "src/routes/use-chat-tools/index.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-BFUmgCsR.js",
+      "_index-tUPll72k.js"
+    ]
+  },
+  "src/routes/use-chat-vision/index.tsx?pick=default&pick=$css": {
+    "file": "assets/index-VE9gz3_I.js",
+    "name": "index",
+    "src": "src/routes/use-chat-vision/index.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-BFUmgCsR.js",
+      "_index-tUPll72k.js"
+    ]
+  },
+  "src/routes/use-object/index.tsx?pick=default&pick=$css": {
+    "file": "assets/index-C8ZIi79n.js",
+    "name": "index",
+    "src": "src/routes/use-object/index.tsx?pick=default&pick=$css",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_web-BFUmgCsR.js",
+      "_index-tUPll72k.js"
+    ]
+  },
+  "virtual:$vinxi/handler/client": {
+    "file": "assets/client-QxssrpeE.js",
+    "name": "client",
+    "src": "virtual:$vinxi/handler/client",
+    "isEntry": true,
+    "imports": [
+      "_web-BFUmgCsR.js"
+    ],
+    "dynamicImports": [
+      "src/routes/index.tsx?pick=default&pick=$css",
+      "src/routes/completion/index.tsx?pick=default&pick=$css",
+      "src/routes/use-chat-attachments/index.tsx?pick=default&pick=$css",
+      "src/routes/use-chat-request/index.tsx?pick=default&pick=$css",
+      "src/routes/use-chat-streamdata/index.tsx?pick=default&pick=$css",
+      "src/routes/use-chat-tools/index.tsx?pick=default&pick=$css",
+      "src/routes/use-chat-vision/index.tsx?pick=default&pick=$css",
+      "src/routes/use-object/index.tsx?pick=default&pick=$css"
+    ],
+    "css": [
+      "assets/client-CyNvp7WB.css"
+    ]
+  }
+}
